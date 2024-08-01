@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/FallenRobot
-RUN git clone https://github.com/error-auth/fallen-yuki /root/FallenRobot
+RUN git clone https://github.com/error-corpse/fallen-yuki /root/FallenRobot
 WORKDIR /root/FallenRobot
 
 #Copy config file to /root/FallenRobot/FallenRobot
