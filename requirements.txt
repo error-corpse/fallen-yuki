@@ -1,3 +1,4 @@
+nano
 aiofiles==24.1.0
 aiohttp==3.8.6
 apscheduler==3.6.3
